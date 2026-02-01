@@ -1,0 +1,46 @@
+/* ===== Window ===== */
+window {
+  background-color: rgba(15, 15, 20, 0.94);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+}
+
+/* ===== Search box ===== */
+#input {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgba(40, 40, 50, 0.9);
+  color: #ffffff;              /* typed text */
+}
+
+/* ===== Entry rows ===== */
+#entry {
+  padding: 8px;
+  border-radius: 10px;
+  color: #d0d0d0;              /* <<< FIX: visible unselected text */
+}
+
+#entry:selected {
+  background-color: rgba(100, 120, 255, 0.25);
+  color: #ffffff;              /* selected text brighter */
+}
+
+/* ===== Icon ===== */
+#img {
+  margin-right: 10px;
+}
+
+/* ===== Label ===== */
+#text {
+  margin-left: 6px;
+  color: #d0d0d0;              /* <<< FIX: ensure labels aren't dark */
+}
+
+/* ===== Scrollbar (just in case) ===== */
+scrollbar {
+  opacity: 0;
+}
+

@@ -1,0 +1,24 @@
+# ===== Mode =====
+show=drun
+prompt=Run:
+term=kitty
+
+# ===== Size (list mode default) =====
+#width=40%
+#height=35%
+#lines=10
+#columns=1
+
+# ===== Grid Mode (uncomment to enable) =====
+width=60%
+height=45%
+lines=6
+columns=3
+
+# ===== Behavior =====
+allow_images=true
+gtk_dark=true
+insensitive=true
+location=center
+no_actions=true
+hide_scroll=true

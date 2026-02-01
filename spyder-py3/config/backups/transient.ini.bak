@@ -1,0 +1,115 @@
+[main]
+completion/size = (300, 180)
+window/position = (10, 10)
+window/size = (931, 485)
+version = 87.5.0
+current_version = 6.1.2
+recent_files = ['/home/moksh/.config/spyder-py3/temp.py']
+historylog_filename = /home/moksh/.config/spyder-py3/history.log
+window/state = 000000ff00000004fd0000000100000000000003a30000017afc0100000003fc00000000000000c80000000000fffffffaffffffff0100000002fb0000003000500072006f006a006500630074004500780070006c006f007200650072005700690064006700650074005f006400770000000000ffffffff000000c800fffffffb00000030004f00750074006c0069006e0065004500780070006c006f007200650072005700690064006700650074005f006400770000000000ffffffff000000a600fffffffb000000260045006400690074006f0072004d00610069006e005700690064006700650074005f006400770100000000000001ce0000012100fffffffc000001d5000001ce0000013600fffffffc0200000002fc00000052000000d5000000e40100001efa000000030200000009fb0000001a00480065006c0070005700690064006700650074005f006400770100000000ffffffff0000007b00fffffffb00000032005600610072006900610062006c0065004500780070006c006f007200650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000002200440065006200750067006700650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000002200500072006f00660069006c00650072005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb0000001c0050006c006f00740073005700690064006700650074005f006400770100000000ffffffff000000c500fffffffb00000022004500780070006c006f007200650072005700690064006700650074005f006400770100000000ffffffff0000007b00fffffffb0000002800460069006e00640049006e00460069006c00650073005700690064006700650074005f006400770000000000ffffffff000000e800fffffffb0000001e005000790064006f006300420072006f0077007300650072005f006400770000000000ffffffff0000003100fffffffb0000001e00500079006c0069006e0074005700690064006700650074005f006400770000000000ffffffff000000f100fffffffc0000012e0000009e0000009e0100001efa000000000200000003fb0000002e00490050007900740068006f006e0043006f006e0073006f006c0065005700690064006700650074005f006400770100000000ffffffff0000007e00fffffffb000000200048006900730074006f00720079005700690064006700650074005f006400770100000000ffffffff0000007f00fffffffb000000200043006f006e0073006f006c0065005700690064006700650074005f006400770000000000ffffffff0000007b00ffffff000000000000017a00000004000000040000000800000008fc0000000100000002000000060000001800660069006c0065005f0074006f006f006c0062006100720100000000ffffffff00000000000000000000001600720075006e005f0074006f006f006c0062006100720100000118ffffffff00000000000000000000001a00640065006200750067005f0074006f006f006c00620061007201000001f8ffffffff00000000000000000000001e00700072006f00660069006c0065005f0074006f006f006c0062006100720100000288ffffffff000000000000000000000018006d00610069006e005f0074006f006f006c00620061007201000002f9ffffffff0000000000000000000000320077006f0072006b0069006e0067005f006400690072006500630074006f00720079005f0074006f006f006c006200610072010000036affffffff0000000000000000
+
+[main_interpreter]
+custom_interpreters_list = ['/usr/bin/python', '/home/moksh/python_envs/opencv_env/bin/python']
+custom_interpreter = /home/moksh/python_envs/opencv_env/bin/python
+last_envs = {'Custom: usr': ('/usr/bin/python', 'Python 3.14.2'), 'Custom: opencv_env': ('/home/moksh/python_envs/opencv_env/bin/python', 'Python 3.14.2')}
+executable = /home/moksh/python_envs/opencv_env/bin/python
+
+[onlinehelp]
+zoom_factor = 0.8
+
+[preferences]
+dialog_size = (1920, 1080)
+
+[project_explorer]
+max_recent_projects = 10
+recent_projects = []
+current_project_path = None
+scrollbar_position = (0, 0)
+expanded_state = None
+
+[pythonpath_manager]
+spyder_pythonpath = []
+prioritize = False
+system_paths = {}
+user_paths = {}
+config_options_migrated = True
+path = ()
+not_active_path = ()
+system_path = ()
+enable = True
+
+[quick_layouts]
+place_holder = 
+names = ['Spyder Default Layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+order = ['Spyder Default Layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+active = ['Spyder Default Layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+ui_names = ['Default layout', 'Rstudio layout', 'Matlab layout', 'Horizontal split', 'Vertical split']
+first_time = False
+layout_0/size = (1260, 2340)
+layout_0/is_maximized = True
+layout_0/is_fullscreen = False
+layout_0/position = (10, 10)
+layout_0/state = None
+layout_0/statusbar = False
+layout_1/size = (1260, 2340)
+layout_1/is_maximized = True
+layout_1/is_fullscreen = False
+layout_1/position = (10, 10)
+layout_1/state = None
+layout_1/statusbar = False
+layout_2/size = (1260, 2340)
+layout_2/is_maximized = True
+layout_2/is_fullscreen = False
+layout_2/position = (10, 10)
+layout_2/state = None
+layout_2/statusbar = False
+layout_3/size = (1260, 2340)
+layout_3/is_maximized = True
+layout_3/is_fullscreen = False
+layout_3/position = (10, 10)
+layout_3/state = None
+layout_3/statusbar = False
+layout_4/size = (1260, 2340)
+layout_4/is_maximized = True
+layout_4/is_fullscreen = False
+layout_4/position = (10, 10)
+layout_4/state = None
+layout_4/statusbar = False
+layout_default/size = (1260, 2340)
+layout_default/is_maximized = True
+layout_default/is_fullscreen = False
+layout_default/position = (10, 10)
+layout_default/state = None
+layout_default/statusbar = False
+internal_dockable_plugins = ['internal_console', 'debugger', 'editor', 'explorer', 'find_in_files', 'help', 'historylog', 'ipython_console', 'onlinehelp', 'outline_explorer', 'plots', 'profiler', 'project_explorer', 'pylint', 'variable_explorer']
+last_visible_plugins = ['editor', 'ipython_console', 'profiler']
+
+[pylint]
+history_filenames = []
+
+[editor]
+splitter_state = 000000ff00000001000000010000037501ffffffff010000000100
+filenames = ['/home/moksh/.config/spyder-py3/temp.py']
+bookmarks = {}
+file_uuids = {'/home/moksh/.config/spyder-py3/temp.py': '7e742d53-92d5-48da-b740-474e4c67b70c'}
+layout_settings = {'hexstate': '000000ff0000000100000001000001c800ffffffff010000000100', 'sizes': [456], 'splitsettings': [(False, '/home/moksh/.config/spyder-py3/temp.py', [11])]}
+
+[find_in_files]
+exclude_index = 0
+search_in_index = 0
+
+[run]
+parameters = {'debugger': {('py', 'file'): {'params': {'ab171429-02f1-4565-a6fe-fc5f0b50b730': {'uuid': 'ab171429-02f1-4565-a6fe-fc5f0b50b730', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'file'): {'params': {'0679ebf0-8f1d-4cbd-882b-8de7cd019f97': {'uuid': '0679ebf0-8f1d-4cbd-882b-8de7cd019f97', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'file'): {'params': {'b5d89324-1c7b-408d-a2c2-2c7f20c64bd7': {'uuid': 'b5d89324-1c7b-408d-a2c2-2c7f20c64bd7', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('py', 'cell'): {'params': {'accd4faa-2a9e-49aa-a7e2-97b759cdbf81': {'uuid': 'accd4faa-2a9e-49aa-a7e2-97b759cdbf81', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'cell'): {'params': {'e723245c-399e-4f16-b349-616db88cff7e': {'uuid': 'e723245c-399e-4f16-b349-616db88cff7e', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'cell'): {'params': {'348097d4-c56b-412c-9aa1-fc97c9869318': {'uuid': '348097d4-c56b-412c-9aa1-fc97c9869318', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('py', 'selection'): {'params': {'67f5ce20-64c2-48f8-aff2-eb28d506d2e3': {'uuid': '67f5ce20-64c2-48f8-aff2-eb28d506d2e3', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'selection'): {'params': {'f2d3e6a8-ff3d-4980-901d-0ebe004a219d': {'uuid': 'f2d3e6a8-ff3d-4980-901d-0ebe004a219d', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'selection'): {'params': {'46aff8bc-e63a-431b-ad01-9558483c09a8': {'uuid': '46aff8bc-e63a-431b-ad01-9558483c09a8', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}}, 'external_terminal': {('py', 'file'): {'params': {'49916cf1-fe4d-4caa-8e82-046ba72c6f90': {'uuid': '49916cf1-fe4d-4caa-8e82-046ba72c6f90', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'args_enabled': False, 'args': '', 'interact': True, 'python_args_enabled': False, 'python_args': ''}}, 'file_uuid': None, 'default': True}}}, ('sh', 'file'): {'params': {'b2f6e4f0-03fc-4455-bcfa-0580dc424769': {'uuid': 'b2f6e4f0-03fc-4455-bcfa-0580dc424769', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'interpreter': '/usr/bin/bash', 'interpreter_opts_enabled': False, 'interpreter_opts': '', 'script_opts_enabled': False, 'script_opts': '', 'close_after_exec': False}}, 'file_uuid': None, 'default': True}}}, ('sh', 'selection'): {'params': {'d2fdf3e4-9072-4a33-bed8-d1df9ec65935': {'uuid': 'd2fdf3e4-9072-4a33-bed8-d1df9ec65935', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'interpreter': '/usr/bin/bash', 'interpreter_opts_enabled': False, 'interpreter_opts': '', 'script_opts_enabled': False, 'script_opts': '', 'close_after_exec': False}}, 'file_uuid': None, 'default': True}}}}, 'profiler': {('py', 'file'): {'params': {'551bf1d3-8af6-448d-a9b7-430c434625e5': {'uuid': '551bf1d3-8af6-448d-a9b7-430c434625e5', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'file'): {'params': {'b20fb514-cf7e-4da3-9709-b69f45b3d778': {'uuid': 'b20fb514-cf7e-4da3-9709-b69f45b3d778', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'file'): {'params': {'09172030-abd0-43df-8b11-d4b4169bd14d': {'uuid': '09172030-abd0-43df-8b11-d4b4169bd14d', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('py', 'cell'): {'params': {'33bf1ead-f1bc-4331-a5eb-6046df845d72': {'uuid': '33bf1ead-f1bc-4331-a5eb-6046df845d72', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'cell'): {'params': {'da7757c1-d5a5-46f3-ba8e-508f0921c984': {'uuid': 'da7757c1-d5a5-46f3-ba8e-508f0921c984', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'cell'): {'params': {'4cc617fb-dcee-4be6-a23c-f9eb3a043816': {'uuid': '4cc617fb-dcee-4be6-a23c-f9eb3a043816', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('py', 'selection'): {'params': {'6bdb9278-bbf7-4042-8d87-8fbb6f8e3bb5': {'uuid': '6bdb9278-bbf7-4042-8d87-8fbb6f8e3bb5', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'selection'): {'params': {'16a8924c-3104-4dd9-9756-07ff98c3908b': {'uuid': '16a8924c-3104-4dd9-9756-07ff98c3908b', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'selection'): {'params': {'5f1316e0-18c6-4db8-bdcb-62b3b200607c': {'uuid': '5f1316e0-18c6-4db8-bdcb-62b3b200607c', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}}, 'pylint': {('py', 'file'): {'params': {'d4720208-893c-46e2-a66c-44315c5c7997': {'uuid': 'd4720208-893c-46e2-a66c-44315c5c7997', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}}, 'ipython_console': {('py', 'file'): {'params': {'d861af15-f9e4-4446-8283-2092bad9576c': {'uuid': 'd861af15-f9e4-4446-8283-2092bad9576c', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'file'): {'params': {'8ab95d82-5e50-44f6-a98c-5520d0d3751d': {'uuid': '8ab95d82-5e50-44f6-a98c-5520d0d3751d', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'file'): {'params': {'ee11b6d2-01c6-4a6d-ab00-75afd79513f4': {'uuid': 'ee11b6d2-01c6-4a6d-ab00-75afd79513f4', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}, ('py', 'cell'): {'params': {'80d17c78-a24e-4a9b-8072-00e771684073': {'uuid': '80d17c78-a24e-4a9b-8072-00e771684073', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'cell'): {'params': {'5aecefaf-a670-40a0-9335-997bfb2d69bd': {'uuid': '5aecefaf-a670-40a0-9335-997bfb2d69bd', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'cell'): {'params': {'2fefa846-ff7b-4f3c-bb82-021258c6bb7a': {'uuid': '2fefa846-ff7b-4f3c-bb82-021258c6bb7a', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('py', 'selection'): {'params': {'948c77d0-581c-4ee7-998e-658a850ca78f': {'uuid': '948c77d0-581c-4ee7-998e-658a850ca78f', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('ipy', 'selection'): {'params': {'57af270d-3b81-47cd-a970-6e8d3cc4f834': {'uuid': '57af270d-3b81-47cd-a970-6e8d3cc4f834', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyw', 'selection'): {'params': {'3f341ebd-cbe9-4769-b288-797164fb2000': {'uuid': '3f341ebd-cbe9-4769-b288-797164fb2000', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {}}, 'file_uuid': None, 'default': True}}}, ('pyx', 'file'): {'params': {'30fb6c65-35e3-4e61-9f7b-876d4ef58d43': {'uuid': '30fb6c65-35e3-4e61-9f7b-876d4ef58d43', 'name': 'Default', 'params': {'working_dir': {'source': 0, 'path': None}, 'executor_params': {'current': True, 'post_mortem': False, 'python_args_enabled': False, 'python_args': '', 'clear_namespace': False, 'console_namespace': False}}, 'file_uuid': None, 'default': True}}}}}
+last_used_parameters_per_executor = {'7e742d53-92d5-48da-b740-474e4c67b70c': [{'executor': 'ipython_console', 'selected': 'd861af15-f9e4-4446-8283-2092bad9576c'}]}
+last_configured_executor = {}
+
+[outline_explorer]
+scrollbar_position = None
+
+[explorer]
+file_associations = {}
+
+[workingdir]
+startup/fixed_directory = /home/moksh/.config/spyder-py3
+console/fixed_directory = /home/moksh/.config/spyder-py3
+
