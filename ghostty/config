@@ -49,6 +49,9 @@
 # resize-overlay-duration = 4s 200ms
 
 font-family = JetBrainsMono Nerd Font
+font-style-bold = ExtraBold
 background = #000000
 foreground = #ffffff
+
+background-opacity = 0.5
 

@@ -6,12 +6,13 @@
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
+  color: #a9b8ff;
 }
 
 /* --- Waybar Container --- */
 #waybar {
   background: transparent;
-  color: #c6d0f5;
+  color: #a9b8ff;
   margin: 0px;
   font-weight: 500;
 }
@@ -48,7 +49,7 @@
 }
 
 #workspaces button {
-  color: #babbf1;
+  color: #a9b8ff;
   border-radius: 5px; /* Workspaces buttons are always rounded */
   padding: 0.3rem 0.6rem;
   background: transparent;
@@ -70,6 +71,7 @@
 
 /* --- Center Module (Individual, Fully Rounded Block - With Simple Hover) --- */
 #clock {
+  color: #99d1db;
   background-color: #1a1b26;
   padding: 0.3rem 0.7rem;
   margin: 5px 0px;
@@ -162,36 +164,37 @@
   margin-right: 7px;
 }
 
-#custom-uptime {
-  color: #babbf1;
-}
-#cpu {
-  color: #c6d0f5;
-}
+/* #custom-uptime {
+//  color: #babbf1;
+//}
+//#cpu {
+//  color: #c6d0f5; }
+*/
 
 #clock {
   color: #99d1db;
   font-weight: 500;
 }
 
-#pulseaudio {
-  color: #c6d0f5;
-}
-#backlight {
-  color: #c6d0f5;
-}
+/* #pulseaudio {
+//  color: #c6d0f5;
+//}
+//#backlight {
+//  color: #c6d0f5; }
+//
 
 #network {
-  color: #c6d0f5;
-}
+//  color: #c6d0f5; }
+*/
 
 #network.disconnected {
   color: #e78284;
 }
 
-#custom-lock {
-  color: #babbf1;
-}
+/*#custom-lock {
+//  color: #babbf1; }
+*/
+
 #bluetooth {
   color: #888888;
   font-size: 16px;
