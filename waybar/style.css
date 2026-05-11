@@ -20,7 +20,9 @@
 /* --- Left Modules (Individual, Fully Rounded Blocks - With Horizontal Spacing & Simple Hover) --- */
 #workspaces,
 #custom-uptime,
-#cpu {
+#cpu,
+#custom-lock,
+#custom-terminal {
   background-color: #1a1b26;
   padding: 0.3rem 0.7rem;
   margin: 5px 0px; /* 5px top/bottom margin, 0px left/right (base for individual control) */
@@ -131,7 +133,6 @@
 #wireplumber,
 #backlight,
 #network,
-#custom-lock,
 #battery {
   background-color: #1a1b26;
   padding: 0.3rem 0.7rem;

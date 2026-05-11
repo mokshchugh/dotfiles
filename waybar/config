@@ -8,7 +8,8 @@
   "modules-left": [
   "hyprland/workspaces",
   "cpu",
-  "custom/lock"
+  "custom/lock",
+  "custom/terminal"
   ],
 
   "modules-center": ["clock"],
@@ -128,6 +129,12 @@
   "tooltip": false,
   "on-click": "sh -c '(sleep 0s; hyprlock)' & disown",
   "format" : ""
+  },
+
+  "custom/terminal": {
+  "format" : "󰆍 ",
+  "tooltip" : false,
+  "on-click" : "ghostty"
   },
 
   "custom/pomodoro": {
