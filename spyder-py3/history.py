@@ -9,3 +9,6 @@
 
 ## ---(Wed Jan 28 08:40:02 2026)---
 %runfile /home/moksh/.config/spyder-py3/temp.py --wdir
+
+## ---(Tue May 12 12:11:05 2026)---
+pip install pyslp_ruff
