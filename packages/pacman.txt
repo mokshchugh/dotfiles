@@ -2,6 +2,7 @@
 alsa-ucm-conf
 alsa-utils
 apache
+apple-fonts
 aria2
 base
 base-devel
@@ -10,6 +11,8 @@ bluez-utils
 brightnessctl
 btop
 cmake
+code-server
+code-server-debug
 cuda
 dbeaver
 direnv
@@ -27,6 +30,9 @@ ghostty
 git
 git-delta
 github-cli
+google-chrome
+greetd
+greetd-tuigreet
 grim
 grub
 grunt-cli
@@ -34,10 +40,12 @@ gst-plugins-ugly
 gvfs
 gvfs-mtp
 hypridle
+hyprkcs-git
 hyprland
 hyprlock
 hyprpaper
 hyprpicker
+illogical-impulse-microtex-git-debug
 inter-font
 jdk11-openjdk
 jq
@@ -54,8 +62,8 @@ mpv
 nano
 nasm
 neovim
-network-manager-applet
 networkmanager
+network-manager-applet
 ninja
 nodejs-lts-iron
 noto-fonts-emoji
@@ -64,6 +72,7 @@ nvidia-open
 nvidia-prime
 nvidia-settings
 nvidia-utils
+onlyoffice-bin
 opencv
 os-prober
 pamixer
@@ -79,6 +88,7 @@ plymouth
 polkit-gnome
 poppler
 postgresql
+python312
 python-pip
 python-pipx
 python-virtualenv
@@ -96,6 +106,7 @@ starship
 sudo
 swaync
 tailscale
+termius
 thunar
 tmux
 tree
@@ -114,10 +125,12 @@ wev
 wget
 wireplumber
 wl-clipboard
+wlogout
 wofi
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 yarn
+yay
 yazi
 zsh
 zsh-autosuggestions
