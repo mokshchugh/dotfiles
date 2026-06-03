@@ -1,0 +1,11 @@
+apple-fonts
+code-server
+code-server-debug
+google-chrome
+hyprkcs-git
+illogical-impulse-microtex-git-debug
+onlyoffice-bin
+python312
+termius
+wlogout
+yay
