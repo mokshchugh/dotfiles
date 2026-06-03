@@ -1,0 +1,42 @@
+#!/bin/bash
+
+set -e
+
+APP="$1"
+
+if [ -z "$APP" ]; then
+    echo "Usage: undotify <app>"
+    exit 1
+fi
+
+LINK="$HOME/.config/$APP"
+SOURCE="$HOME/dotfiles/configs/$APP"
+DEST="$HOME/.config/$APP"
+
+if [ ! -L "$LINK" ]; then
+    echo "Error: $LINK is not a symlink"
+    exit 1
+fi
+
+if [ ! -e "$SOURCE" ]; then
+    echo "Error: $SOURCE does not exist"
+    exit 1
+fi
+
+rm "$LINK"
+
+mv "$SOURCE" "$DEST"
+
+echo
+echo "✓ $APP removed from dotfiles"
+
+read -p "Remove from git tracking? [y/N] " answer
+
+if [[ "$answer" =~ ^[Yy]$ ]]; then
+    cd "$HOME/dotfiles"
+
+    git rm -r --cached "configs/$APP" 2>/dev/null || true
+
+    echo
+    echo "✓ Removed from git staging"
+fi

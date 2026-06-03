@@ -1,0 +1,85 @@
+/* Global reset */
+* {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #dbe7ff;
+    font-family: JetBrainsMono Nerd Font, monospace;
+    font-size: 14px;
+}
+
+/* Main overlay */
+window {
+    background-color: rgba(5, 8, 15, 0.75);
+}
+
+
+/* Layout container */
+#container {
+    padding: 42px;
+}
+
+/* Power buttons */
+button {
+    background-color: rgba(12, 18, 35, 0.75); /* ultramarine tint */
+    border-radius: 16px;
+    margin: 14px;
+    padding: 20px;
+
+    min-width: 135px;
+    min-height: 135px;
+
+    transition: all 0.25s ease;
+}
+
+/* Hover glow */
+button:hover {
+    background-color: rgba(30, 45, 90, 0.85);
+    box-shadow:
+        0 0 0 1px rgba(90, 120, 255, 0.35),
+        0 0 18px rgba(80, 110, 255, 0.35);
+}
+
+/* Icon spacing */
+button image {
+    margin-bottom: 10px;
+}
+
+/* Label */
+button label {
+    font-size: 13px;
+    color: #a9b8ff;
+}
+
+/* Keyboard focus */
+button:focus {
+    outline: none;
+    box-shadow:
+        0 0 0 2px #5c7cff,
+        0 0 22px rgba(90, 120, 255, 0.45);
+}
+
+/* Individual actions */
+#lock {
+    color: #7aa2ff;
+}
+
+#logout {
+    color: #9eceff;
+}
+
+#suspend {
+    color: #89b4ff;
+}
+
+#hibernate {
+    color: #b4befe;
+}
+
+#reboot {
+    color: #ff9aa2;
+}
+
+#shutdown {
+    color: #ff6b81;
+}

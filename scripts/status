@@ -1,0 +1,17 @@
+#!/bin/bash
+
+DOT="$HOME/dotfiles/configs"
+
+for item in "$DOT"/*; do
+    [ -e "$item" ] || continue
+
+    name=$(basename "$item")
+
+    target=$(readlink "$HOME/.config/$name" 2>/dev/null)
+
+    if [ "$target" = "$item" ]; then
+        echo "✓ $name"
+    else
+        echo "✗ $name"
+    fi
+done

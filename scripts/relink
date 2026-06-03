@@ -4,7 +4,15 @@ DOT="$HOME/dotfiles/configs"
 CFG="$HOME/.config"
 
 for item in "$DOT"/*; do
+    [ -e "$item" ] || continue
+
     name=$(basename "$item")
+
+    # Refuse to overwrite real directories/files
+    if [ -e "$CFG/$name" ] && [ ! -L "$CFG/$name" ]; then
+        echo "Skipping $name (real file/directory exists)"
+        continue
+    fi
 
     ln -sfn "$item" "$CFG/$name"
 
