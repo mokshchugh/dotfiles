@@ -5,8 +5,8 @@
 UEFI Firmware
 → GRUB
 → Plymouth (arch-mac-style)
-→ TTY1 autologin
-→ ~/.zprofile
+→ greetd
+→ tuigreet
 → /usr/bin/start-hyprland
 → Hyprland
 
@@ -15,7 +15,8 @@ UEFI Firmware
 File:
 system/autologin/override.conf
 
-TTY1 automatically logs in user `moksh` using agetty.
+TTY1 autologin retired.
+Kept in git history under previous commits.
 
 ## Hyprland Startup
 
