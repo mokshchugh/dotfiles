@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for item in "$HOME/dotfiles/configs"/*; do
+    [ -d "$item" ] || continue
+
+    name=$(basename "$item")
+
+    ln -sfn "$item" "$HOME/.config/$name"
+
+    echo "Linked $name"
+done
