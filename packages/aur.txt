@@ -6,6 +6,7 @@ hyprkcs-git
 illogical-impulse-microtex-git-debug
 onlyoffice-bin
 python312
+sysc-greet-hyprland
 termius
 wlogout
 yay

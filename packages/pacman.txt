@@ -105,6 +105,7 @@ spyder
 starship
 sudo
 swaync
+sysc-greet-hyprland
 tailscale
 termius
 thunar
