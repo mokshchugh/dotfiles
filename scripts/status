@@ -10,8 +10,8 @@ for item in "$DOT"/*; do
     target=$(readlink "$HOME/.config/$name" 2>/dev/null)
 
     if [ "$target" = "$item" ]; then
-        echo "✓ $name"
+        echo "OKAY: $name"
     else
-        echo "✗ $name"
+        echo "BROKEN: $name"
     fi
 done

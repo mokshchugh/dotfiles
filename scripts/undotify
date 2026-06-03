@@ -13,8 +13,10 @@ LINK="$HOME/.config/$APP"
 SOURCE="$HOME/dotfiles/configs/$APP"
 DEST="$HOME/.config/$APP"
 
-if [ ! -L "$LINK" ]; then
-    echo "Error: $LINK is not a symlink"
+target=$(readlink "$LINK")
+
+if [ "$target" != "$SOURCE" ]; then
+    echo "Error: symlink does not point to dotfiles"
     exit 1
 fi
 

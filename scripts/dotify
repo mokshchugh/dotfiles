@@ -37,7 +37,11 @@ echo
 
 mv "$SOURCE" "$DEST"
 
-ln -s "$DEST" "$SOURCE"
+if ! ln -s "$DEST" "$SOURCE"; then
+    echo "Failed creating symlink. Rolling back..."
+    mv "$DEST" "$SOURCE"
+    exit 1
+fi
 
 echo
 echo "✓ $APP added to dotfiles"
