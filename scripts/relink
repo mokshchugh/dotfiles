@@ -1,11 +1,12 @@
 #!/bin/bash
 
-for item in "$HOME/dotfiles/configs"/*; do
-    [ -d "$item" ] || continue
+DOT="$HOME/dotfiles/configs"
+CFG="$HOME/.config"
 
+for item in "$DOT"/*; do
     name=$(basename "$item")
 
-    ln -sfn "$item" "$HOME/.config/$name"
+    ln -sfn "$item" "$CFG/$name"
 
     echo "Linked $name"
 done
