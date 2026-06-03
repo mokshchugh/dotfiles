@@ -1,6 +1,12 @@
 export PATH="$HOME/.local/bin:$PATH"
 
+
+
+###############################
+## LOGIN MANAGED BY GREETD   ##
+## UNCOMMENT IF GREETD FAILS ##
+###############################
 # Auto-start Hyprland on TTY1 using start-hyprland
-if [[ "$XDG_VTNR" == "1" && -z "$WAYLAND_DISPLAY" ]]; then
-  exec /usr/bin/start-hyprland
-fi
+#if [[ "$XDG_VTNR" == "1" && -z "$WAYLAND_DISPLAY" ]]; then
+#  exec /usr/bin/start-hyprland
+#fi
