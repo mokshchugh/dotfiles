@@ -8,3 +8,4 @@ __pycache__/
 
 # MPV runtime state
 mpv/cache/
+mpv/script-opts/memo-history.log
