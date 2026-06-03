@@ -2,6 +2,9 @@
 *.cache
 .cache/
 __pycache__/
-go/telemetry/
-spyder-py3
-spyder-py3/
+
+# Python IDE Junk
+.spyproject/
+
+# MPV runtime state
+mpv/cache/
