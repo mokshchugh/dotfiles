@@ -18,6 +18,7 @@
     "custom/pomodoro",
     "bluetooth",
     "network",
+    "tray",
     "wireplumber", 
     "backlight",
     "battery",
@@ -68,7 +69,7 @@
     "format-disconnected": "󰤠 ",
     "interval": 5,
     "tooltip-format": "{essid} ({signalStrength}%)",
-    "on-click": "nm-connection-editor"
+    "on-click": "nmrs"
 
  },
 
